@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>RailsStupidCoaching</title>
+    <title>Stupid Coaching</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,6 +10,11 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class="container">
+      <div  class = "d-flex justify-content-center mt-3">
+        <h1>Stupid coaching</h1>
+      </div>
+      <%= yield %>
+    </div>
   </body>
 </html>
