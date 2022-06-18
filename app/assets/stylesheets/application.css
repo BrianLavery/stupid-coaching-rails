@@ -29,14 +29,17 @@ h1, h2, h3, p, a {
     border-radius: 4px;
     background-color: rgb(240, 240, 240);
     border: 1px solid rgb(200, 200, 200);
+    border-left: 8px solid rgb(200, 200, 200);
 }
 
 .answer {
     border-radius: 4px;
     background-color: rgb(254, 254, 233);
     border: 1px solid rgb(200, 200, 200);
+    border-left: 8px solid rgb(200, 200, 200);
 }
 
 #question-instruction {
     font-size: 1.6em;
 }
+
